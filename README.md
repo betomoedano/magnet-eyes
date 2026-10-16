@@ -78,11 +78,3 @@ The core has **17 passing math tests** covering calibration, unstable and invali
 Simulator and physical-device builds passed. Build 2 was installed on an iPhone 17 Pro. **Physical magnet response remains unverified**; installation and simulator tests do not establish that the eyes reliably follow a real magnet. Local device receipts and build logs are excluded from this repository.
 
 For a physical acceptance test, verify that recentering settles the eyes, moving the magnet changes the readings smoothly, holding it maintains the response, and removing it returns the eyes near center. Record the magnet orientation, path, axes, inversion, and sensitivity that produce a repeatable result.
-
-## Short video outline
-
-- **Hook:** “Did you know your phone can detect magnetic fields? I saw a demo online and wanted to understand how it works.”
-- **Show the experiment:** Keep the phone still, remove the magnet, tap Recenter, then bring the magnet nearby.
-- **Explain:** “Apple’s Core Motion API gives us magnetic-field readings along three axes. I subtract the background field, smooth the change, and map two axes to the pupils.”
-- **Show the Field view:** “This is the combined field changing—not the exact location of each magnet.”
-- **Close:** Explain that the effect needs a fixed setup and calibration. Only show a real tracking result after testing it; keep the Demo label visible in simulator footage.
