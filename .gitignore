@@ -1,0 +1,17 @@
+# Build output and local editor state
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+
+# Local test logs, device receipts, and signing material
+validation/
+*.xcresult/
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+.env
+.env.*

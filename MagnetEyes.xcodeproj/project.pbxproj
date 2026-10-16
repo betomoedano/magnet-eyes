@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8B668555A64DEE23DB52B1 /* EyesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEC40AF6CE09864698BAEA9 /* EyesView.swift */; };
+		3956A09A17F5CF1DB476B9B3 /* MagnetometerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD074DDDEA0A92B5A5771AE /* MagnetometerModel.swift */; };
+		40FEF119E9007C08D626246B /* MagnetEyesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469804631668A2ED617DE81 /* MagnetEyesApp.swift */; };
+		6C0AD9EFCB57B5CBFCE441B9 /* MagnetEyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4A7A7544F4224ED5D89D9 /* MagnetEyesUITests.swift */; };
+		E4E00847BEBF3D8183F0DD9A /* MagnetEyesCore in Frameworks */ = {isa = PBXBuildFile; productRef = FAD4E748A23EF4255B48EE10 /* MagnetEyesCore */; };
+		C7523C206A84057177CF9C47 /* MagneticFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C00B0D24510C558FBA3BA1 /* MagneticFieldView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9340E13465EB275C2E84F828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9A75FD341BD988A7229A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701C3E8A626570E2693C0AA2;
+			remoteInfo = MagnetEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17843D972A9FF9B789B53FFB /* MagnetEyesUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MagnetEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2469804631668A2ED617DE81 /* MagnetEyesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetEyesApp.swift; sourceTree = "<group>"; };
+		36E027E89472AC7D24BFAA74 /* MagnetEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnetEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		465EDE00BDB68EF3C9D89270 /* MagnetEyes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MagnetEyes; path = .; sourceTree = SOURCE_ROOT; };
+		7EEC40AF6CE09864698BAEA9 /* EyesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesView.swift; sourceTree = "<group>"; };
+		7FD074DDDEA0A92B5A5771AE /* MagnetometerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerModel.swift; sourceTree = "<group>"; };
+		D2B4A7A7544F4224ED5D89D9 /* MagnetEyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetEyesUITests.swift; sourceTree = "<group>"; };
+		40C00B0D24510C558FBA3BA1 /* MagneticFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticFieldView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6578B5DEEDCA70802EB4D9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E00847BEBF3D8183F0DD9A /* MagnetEyesCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AA205D17B9D28A5F559A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E027E89472AC7D24BFAA74 /* MagnetEyes.app */,
+				17843D972A9FF9B789B53FFB /* MagnetEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734680FD5BF3F98BC1EC2ECB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7EEC40AF6CE09864698BAEA9 /* EyesView.swift */,
+				2469804631668A2ED617DE81 /* MagnetEyesApp.swift */,
+				40C00B0D24510C558FBA3BA1 /* MagneticFieldView.swift */,
+				7FD074DDDEA0A92B5A5771AE /* MagnetometerModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8AE255745AB0431A3160B8D6 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B4A7A7544F4224ED5D89D9 /* MagnetEyesUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		CB6487F2A329D5B9ABFB3F94 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				465EDE00BDB68EF3C9D89270 /* MagnetEyes */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		EE970180359846FBFB74D47F = {
+			isa = PBXGroup;
+			children = (
+				734680FD5BF3F98BC1EC2ECB /* App */,
+				CB6487F2A329D5B9ABFB3F94 /* Packages */,
+				8AE255745AB0431A3160B8D6 /* UITests */,
+				19AA205D17B9D28A5F559A09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701C3E8A626570E2693C0AA2 /* MagnetEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3E9F54975803662A9A447A /* Build configuration list for PBXNativeTarget "MagnetEyes" */;
+			buildPhases = (
+				186514F26ABF7768EB1CBF15 /* Sources */,
+				6578B5DEEDCA70802EB4D9D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagnetEyes;
+			packageProductDependencies = (
+				FAD4E748A23EF4255B48EE10 /* MagnetEyesCore */,
+			);
+			productName = MagnetEyes;
+			productReference = 36E027E89472AC7D24BFAA74 /* MagnetEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D5EDEC5D28347880D0486B3 /* MagnetEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A1A57074EEF756BC09675E /* Build configuration list for PBXNativeTarget "MagnetEyesUITests" */;
+			buildPhases = (
+				5B79453479B6171B9F261447 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADD0DAE7F82DC28A46CD37B /* PBXTargetDependency */,
+			);
+			name = MagnetEyesUITests;
+			packageProductDependencies = (
+			);
+			productName = MagnetEyesUITests;
+			productReference = 17843D972A9FF9B789B53FFB /* MagnetEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9A75FD341BD988A7229A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					701C3E8A626570E2693C0AA2 = {
+						ProvisioningStyle = Automatic;
+					};
+					8D5EDEC5D28347880D0486B3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 701C3E8A626570E2693C0AA2;
+					};
+				};
+			};
+			buildConfigurationList = 0F406FE7E42A9B8A00546865 /* Build configuration list for PBXProject "MagnetEyes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EE970180359846FBFB74D47F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				17D1F5117CBC6563060D8097 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 19AA205D17B9D28A5F559A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701C3E8A626570E2693C0AA2 /* MagnetEyes */,
+				8D5EDEC5D28347880D0486B3 /* MagnetEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186514F26ABF7768EB1CBF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8B668555A64DEE23DB52B1 /* EyesView.swift in Sources */,
+				40FEF119E9007C08D626246B /* MagnetEyesApp.swift in Sources */,
+				C7523C206A84057177CF9C47 /* MagneticFieldView.swift in Sources */,
+				3956A09A17F5CF1DB476B9B3 /* MagnetometerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B79453479B6171B9F261447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0AD9EFCB57B5CBFCE441B9 /* MagnetEyesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ADD0DAE7F82DC28A46CD37B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701C3E8A626570E2693C0AA2 /* MagnetEyes */;
+			targetProxy = 9340E13465EB275C2E84F828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30B70BC89E6A07B79A4D6390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Eyes";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Magnet Eyes uses the magnetic field sensor to animate its pupils. All readings stay on this iPhone.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.codewithbeto.magneteyes;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CE5FCA1CCE6673CD5935F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B1E5D1E9ED44DB5A43440B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7A104E52AE048CDB7A94A431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.codewithbeto.magneteyes.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagnetEyes;
+			};
+			name = Release;
+		};
+		8E0569FFC20D54E40111E19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Eyes";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Magnet Eyes uses the magnetic field sensor to animate its pupils. All readings stay on this iPhone.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.codewithbeto.magneteyes;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD5C74D986155DC4D6E254BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.codewithbeto.magneteyes.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagnetEyes;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F406FE7E42A9B8A00546865 /* Build configuration list for PBXProject "MagnetEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5FCA1CCE6673CD5935F80 /* Debug */,
+				6B1E5D1E9ED44DB5A43440B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B3E9F54975803662A9A447A /* Build configuration list for PBXNativeTarget "MagnetEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B70BC89E6A07B79A4D6390 /* Debug */,
+				8E0569FFC20D54E40111E19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1A1A57074EEF756BC09675E /* Build configuration list for PBXNativeTarget "MagnetEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5C74D986155DC4D6E254BA /* Debug */,
+				7A104E52AE048CDB7A94A431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		17D1F5117CBC6563060D8097 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAD4E748A23EF4255B48EE10 /* MagnetEyesCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MagnetEyesCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FE9A75FD341BD988A7229A94 /* Project object */;
+}
